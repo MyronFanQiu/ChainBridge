@@ -112,6 +112,8 @@ github.com/crustio/chainbridge-substrate-events v1.3.0 h1:ktfO0AsfG2puJ4eiyb6i+w
 github.com/crustio/chainbridge-substrate-events v1.3.0/go.mod h1:vCl7N273cIobxh92AULqN/1Gj6DAA+uyxBR0ORIdQ2w=
 github.com/crustio/chainbridge-substrate-events v1.4.0 h1:2k2zLx3NBBbrIc3o3P2dj8auygVoFj4IeC7KHgbotnQ=
 github.com/crustio/chainbridge-substrate-events v1.4.0/go.mod h1:vCl7N273cIobxh92AULqN/1Gj6DAA+uyxBR0ORIdQ2w=
+github.com/crustio/chainbridge-substrate-events v1.5.0 h1:qzR3otTPmvJKNu8O0mBe/OnJasYbxVg4aA0WsxaUttM=
+github.com/crustio/chainbridge-substrate-events v1.5.0/go.mod h1:vCl7N273cIobxh92AULqN/1Gj6DAA+uyxBR0ORIdQ2w=
 github.com/crustio/chainbridge-utils v1.1.0 h1:XGckvxV/8nx8UTXXCh1dk2Td+lIUX+ZP1ae4u0lOxRs=
 github.com/crustio/chainbridge-utils v1.1.0/go.mod h1:Eat0aS9nYrg2LT10+jDUtrnm9CaR/Kye/n9jTk7rboE=
 github.com/crustio/go-substrate-rpc-client/v3 v3.1.0 h1:8nO2EVkOY+g8M/TrvSaHLMa4pwB8xouXWmWvP6f/lUU=

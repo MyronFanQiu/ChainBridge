@@ -3,7 +3,7 @@ module github.com/crustio/ChainBridge
 go 1.15
 
 require (
-	github.com/crustio/chainbridge-substrate-events v1.4.0
+	github.com/crustio/chainbridge-substrate-events v1.5.0
 	github.com/crustio/chainbridge-utils v1.1.0
 	github.com/ChainSafe/log15 v1.0.0
 	github.com/crustio/go-substrate-rpc-client/v3 v3.1.0
