@@ -38,6 +38,15 @@ func (w *writer) proposalIsComplete(srcId msg.ChainId, nonce msg.Nonce, dataHash
 	return prop.Status == PassedStatus || prop.Status == TransferredStatus || prop.Status == CancelledStatus
 }
 
+func (w *writer) proposalIsTransferred(srcId msg.ChainId, nonce msg.Nonce, dataHash [32]byte) bool {
+	prop, err := w.bridgeContract.GetProposal(w.conn.CallOpts(), uint8(srcId), uint64(nonce), dataHash)
+	if err != nil {
+		w.log.Error("Failed to check proposal existence", "err", err)
+		return false
+	}
+	return prop.Status == TransferredStatus
+}
+
 // proposalIsComplete returns true if the proposal state is Transferred or Cancelled
 func (w *writer) proposalIsFinalized(srcId msg.ChainId, nonce msg.Nonce, dataHash [32]byte) bool {
 	prop, err := w.bridgeContract.GetProposal(w.conn.CallOpts(), uint8(srcId), uint64(nonce), dataHash)
@@ -91,17 +100,16 @@ func (w *writer) createErc20Proposal(m msg.Message) bool {
 
 	data := ConstructErc20ProposalData(m.Payload[0].([]byte), m.Payload[1].([]byte))
 	dataHash := utils.Hash(append(w.cfg.erc20HandlerContract.Bytes(), data...))
-	w.log.Info("QiuFan", "nonce", uint64(m.DepositNonce), "dataHash", dataHash)
 
-	// if !w.shouldVote(m, dataHash) {
-	// 	if w.proposalIsPassed(m.Source, m.DepositNonce, dataHash) {
-	// 		// We should not vote for this proposal but it is ready to be executed
-	// 		w.executeProposal(m, data, dataHash)
-	// 		return true
-	// 	} else {
-	// 		return false
-	// 	}
-	// }
+	if w.proposalIsTransferred(m.Source, m.DepositNonce, dataHash) {
+		// // We should not vote for this proposal but it is ready to be executed
+		// w.executeProposal(m, data, dataHash)
+		w.log.Info("Success Proposal", "nonce", m.DepositNonce)
+		return true
+	} else {
+		w.log.Error("Failed Proposal", "nonce", m.DepositNonce)
+		return false
+	}
 
 	// // Capture latest block so when know where to watch from
 	// latestBlock, err := w.conn.LatestBlock()

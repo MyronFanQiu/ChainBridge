@@ -1,0 +1,491 @@
+t=2021-10-11T11:13:53+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:13:56+0800 lvl=info msg="Connecting to ethereum chain..." chain=Rinkeby url=wss://rinkeby.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:14:10+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:14:13+0800 lvl=eror msg="dial tcp [2606:4700:3033::6815:2a16]:443: connect: no route to host"
+t=2021-10-11T11:14:22+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:14:25+0800 lvl=info msg="Connecting to ethereum chain..." chain=Rinkeby url=wss://rinkeby.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:14:40+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:14:40+0800 lvl=eror msg="dial tcp [2606:4700:3033::6815:2a16]:443: connect: no route to host"
+t=2021-10-11T11:15:09+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:15:12+0800 lvl=info msg="Connecting to ethereum chain..." chain=Rinkeby url=wss://rinkeby.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:15:20+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:15:22+0800 lvl=info msg="Started Rinkeby chain" system=core
+t=2021-10-11T11:15:22+0800 lvl=info msg="Polling Blocks..." chain=Rinkeby block=9444088
+t=2021-10-11T11:15:23+0800 lvl=info msg="Started sub chain" system=core
+t=2021-10-11T11:15:24+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2000000000000
+t=2021-10-11T11:15:24+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=1 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:24+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=1
+t=2021-10-11T11:15:24+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=1 dataHash=0x172dbd42aaf19f366a8d0c51be5996065d65e045af95c33a45db241afb3a548b
+t=2021-10-11T11:15:26+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1997000000000000
+t=2021-10-11T11:15:26+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=2 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:26+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=2
+t=2021-10-11T11:15:26+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=2 dataHash=0xf44de5dc2c602a6a66986c52fd7c41395769582b15c2d920e8a3505e02f4f1a4
+t=2021-10-11T11:15:28+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=189000000000000
+t=2021-10-11T11:15:28+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=3 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:28+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=3
+t=2021-10-11T11:15:28+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=3 dataHash=0x6587ed6f94c62e0413d45e234d688d3e3916ff88d9e291741350f53eefcbe7ea
+t=2021-10-11T11:15:29+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=293000000000000
+t=2021-10-11T11:15:29+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=4 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:29+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=4
+t=2021-10-11T11:15:29+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=4 dataHash=0x96d4e456e535a9e40ca0288b4e2b109518164a94836e9902268a842d61739644
+t=2021-10-11T11:15:31+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=462000000000000
+t=2021-10-11T11:15:31+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=5 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:31+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=5
+t=2021-10-11T11:15:31+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=5 dataHash=0x3f72b45d38433207a54294da21abe564f4d40aa62ae3e01cf9754cd9b2d2f963
+t=2021-10-11T11:15:32+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=507000000000000
+t=2021-10-11T11:15:32+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=6 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:32+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=6
+t=2021-10-11T11:15:32+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=6 dataHash=0x63925c6f232f561d14d96739dd60220584d9de4b54ef48074ef06f231d651b9f
+t=2021-10-11T11:15:34+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=175600000000000
+t=2021-10-11T11:15:34+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=7 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:34+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=7
+t=2021-10-11T11:15:34+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=7 dataHash=0xcf0d6a5f2c30a83ff272bc9d3e2ee47bc93236bb5b0ea09b53ac27853a966f3c
+t=2021-10-11T11:15:35+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=28000000000000
+t=2021-10-11T11:15:35+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=8 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:35+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=8
+t=2021-10-11T11:15:35+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=8 dataHash=0xda1307576acbf86d6d065f419f340747b8b255e9ab313cd45d4527f1c4013eba
+t=2021-10-11T11:15:36+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1057000000000000
+t=2021-10-11T11:15:36+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=9 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:36+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=9
+t=2021-10-11T11:15:36+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=9 dataHash=0x56f9a54350213c695260648aec5161e84be38f2b20c9ec08c505fc7e9ec224e2
+t=2021-10-11T11:15:38+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=997000000000000
+t=2021-10-11T11:15:38+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=10 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:38+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=10
+t=2021-10-11T11:15:38+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=10 dataHash=0xc07f5a605ced888b8607b822f78377ae143082a7f4966d2abee401f6ea121e3c
+t=2021-10-11T11:15:39+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=47000000000000
+t=2021-10-11T11:15:39+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=11 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:39+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=11
+t=2021-10-11T11:15:39+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=11 dataHash=0x10fa760917ed90bf227e350e6ae9f521119c6926e0b31ed84c4b67503cf2e6e9
+t=2021-10-11T11:15:41+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=547000000000000
+t=2021-10-11T11:15:41+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=12 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:41+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=12
+t=2021-10-11T11:15:41+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=12 dataHash=0xb23ce683f336647ea6abc9329798942e9f21ce2f414082d92ea85e6c00602932
+t=2021-10-11T11:15:42+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2350000000000000
+t=2021-10-11T11:15:42+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=13 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:42+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=13
+t=2021-10-11T11:15:42+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=13 dataHash=0xe74281f63bb586427c6c4c3845618c1af0304b945ca60d5ab86892dcee54471d
+t=2021-10-11T11:15:43+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=16883300000000
+t=2021-10-11T11:15:43+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=14 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:43+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=14
+t=2021-10-11T11:15:43+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=14 dataHash=0xde969681a5cd046e3789c7bc5f7422ce0416ea74b366c8ec35e8f04c57711e4a
+t=2021-10-11T11:15:45+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1827000000000000
+t=2021-10-11T11:15:45+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=15 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:45+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=15
+t=2021-10-11T11:15:45+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=15 dataHash=0x61e1d062cda06f518c204aeb2e36350b52b359ba6d824485992e02a9f2ba9d4f
+t=2021-10-11T11:15:46+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2187000000000000
+t=2021-10-11T11:15:46+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=16 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:46+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=16
+t=2021-10-11T11:15:46+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=16 dataHash=0x7f2014b90f804b47968e5322bc344a30d6e9a82324c11867bd69aca7dd5e9cb6
+t=2021-10-11T11:15:47+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=146000000000000
+t=2021-10-11T11:15:47+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=17 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:47+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=17
+t=2021-10-11T11:15:47+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=17 dataHash=0xc04af66bdf70bc1777992895d175cb93e1283f9503a94cd47ff77bccccef8f1c
+t=2021-10-11T11:15:49+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=135000000000000
+t=2021-10-11T11:15:49+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=18 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:49+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=18
+t=2021-10-11T11:15:49+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=18 dataHash=0xd8ce6147b58a8364d31d59ed9865a732025b5762f54879791415e6968cccc5d5
+t=2021-10-11T11:15:50+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=97000000000000
+t=2021-10-11T11:15:50+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=19 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:50+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=19
+t=2021-10-11T11:15:50+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=19 dataHash=0x0b7d7f38c68a8e3fb1d13da6a29e57419ac40515db33eff1012e0c6c35add28b
+t=2021-10-11T11:15:52+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2497000000000000
+t=2021-10-11T11:15:52+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=20 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:52+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=20
+t=2021-10-11T11:15:52+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=20 dataHash=0x158071e2bebaa30912016a404ded51bc7bb6b1e4e3ecb0d432c361a305488aae
+t=2021-10-11T11:15:53+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=4573000000000000
+t=2021-10-11T11:15:53+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=21 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:53+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=21
+t=2021-10-11T11:15:53+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=21 dataHash=0x523dc43d55ac7657aababfcbba367ab98e42e40eec5b6070c2731f45ef6b0053
+t=2021-10-11T11:15:54+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=100000000000
+t=2021-10-11T11:15:54+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=22 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:54+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=22
+t=2021-10-11T11:15:54+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=22 dataHash=0x0d9c5ca00c04e8460db63ef4814f6fb1fd0a2afca8c1ade10f39bc330564830b
+t=2021-10-11T11:15:56+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1091000000000000
+t=2021-10-11T11:15:56+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=23 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:56+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=23
+t=2021-10-11T11:15:56+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=23 dataHash=0x2945caff13cf9dc8f1c0fec19d909177ecf925c17ab82f0fa1ac2157c833e152
+t=2021-10-11T11:15:57+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1237000000000000
+t=2021-10-11T11:15:57+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=24 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:57+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=24
+t=2021-10-11T11:15:57+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=24 dataHash=0x7338211188ef7e959fcb8765f7e38b6889d6a837caa759fc0b120be215e4d5ce
+t=2021-10-11T11:15:59+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=3000000000000
+t=2021-10-11T11:15:59+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=25 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:15:59+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=25
+t=2021-10-11T11:15:59+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=25 dataHash=0x11204f9f688661abaf7525cf26611657d6a1bce493f5966bf52e2caeaa8abf0c
+t=2021-10-11T11:16:00+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=27000000000000
+t=2021-10-11T11:16:00+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=26 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:00+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=26
+t=2021-10-11T11:16:00+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=26 dataHash=0x1dcb430d5a1528481750c85c033eea6e8a6b63bf09a12b992001f082a64bf45c
+t=2021-10-11T11:16:01+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=4689000000000000
+t=2021-10-11T11:16:01+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=27 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:01+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=27
+t=2021-10-11T11:16:01+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=27 dataHash=0x54db815895ec8ce72bdb8d83e1dadab2f08d19cf4ce3d172ed981d402b06702d
+t=2021-10-11T11:16:03+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=89000000000000
+t=2021-10-11T11:16:03+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=28 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:03+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=28
+t=2021-10-11T11:16:03+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=28 dataHash=0x2143ef4cf7d3f0ac249029d5d7b0c67dce76bdae6c1b1db3d9bcbbfdfe79435c
+t=2021-10-11T11:16:04+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=102998600000000
+t=2021-10-11T11:16:04+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=29 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:04+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=29
+t=2021-10-11T11:16:04+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=29 dataHash=0x7a5171a4a4af3f9b0f94cad0d71f16168d3b0b962c4bed17e1189cf34b4a09e0
+t=2021-10-11T11:16:06+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=995000000000000
+t=2021-10-11T11:16:06+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=30 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:06+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=30
+t=2021-10-11T11:16:06+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=30 dataHash=0x9d06fbd959692b681dcb4f2326a2155fcc511cc53f44a68f8447d4a7893bddb0
+t=2021-10-11T11:16:07+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=5443900000000
+t=2021-10-11T11:16:07+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=31 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:07+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=31
+t=2021-10-11T11:16:07+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=31 dataHash=0x7f5b2c2df80411d64b1ab86fb029ae7900dcc11f2c9ce0d05bc678e08b04f709
+t=2021-10-11T11:16:08+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=7000000000000
+t=2021-10-11T11:16:08+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=32 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:08+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=32
+t=2021-10-11T11:16:08+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=32 dataHash=0xa6fc42cd499843315236273dfe2848db4be63cff819a0267f87a2a4b5ad8bd77
+t=2021-10-11T11:16:10+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2496990000000000
+t=2021-10-11T11:16:10+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=33 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:10+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=33
+t=2021-10-11T11:16:10+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=33 dataHash=0x82d7c233fc112cc5c6ff6cf6a8035c30e07953758da685a7e935dd9410a40f47
+t=2021-10-11T11:16:11+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=6257000000000000
+t=2021-10-11T11:16:11+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=34 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:11+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=34
+t=2021-10-11T11:16:11+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=34 dataHash=0x896bc43cb24ac50641ac7bb552ec22423103fd2f663e9071f156f9c0eac5785b
+t=2021-10-11T11:16:12+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=827000000000000
+t=2021-10-11T11:16:12+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=35 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:12+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=35
+t=2021-10-11T11:16:12+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=35 dataHash=0x1cb10bc6a2e69f52844a521322e7d773b2fdeeeec0872ca99fb4de9ce8cb9d9e
+t=2021-10-11T11:16:14+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=3300000000000000
+t=2021-10-11T11:16:14+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=36 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:14+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=36
+t=2021-10-11T11:16:14+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=36 dataHash=0x9afd54130bb10d155891abbab34650748e8c0549b9ea59a7bdea56b9f2678aea
+t=2021-10-11T11:16:15+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=140000000000000
+t=2021-10-11T11:16:15+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=37 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:15+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=37
+t=2021-10-11T11:16:15+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=37 dataHash=0x2c3736e346b729ba872c6e15c9f407866bdd9ca4c07d05ae3c8a40d5a5b4d56d
+t=2021-10-11T11:16:17+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=5997000000000000
+t=2021-10-11T11:16:17+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=38 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:17+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=38
+t=2021-10-11T11:16:17+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=38 dataHash=0xd88542d266b45055ae31a46a349558716451299f629d9d871d28a49655392722
+t=2021-10-11T11:16:18+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=830000000000000
+t=2021-10-11T11:16:18+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=39 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:18+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=39
+t=2021-10-11T11:16:18+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=39 dataHash=0x6f51a3ec0b9af54ebb90b16a9ae268a2d1e409ace6c98c086ea07f63d26f3f61
+t=2021-10-11T11:16:19+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=497000000000000
+t=2021-10-11T11:16:19+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=40 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:19+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=40
+t=2021-10-11T11:16:19+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=40 dataHash=0x980204e030af1454cb2c7c5b261885d0b4525ab0330233190b1dbc49577c94c6
+t=2021-10-11T11:16:21+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=21770000000000
+t=2021-10-11T11:16:21+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=41 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:16:21+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=41
+t=2021-10-11T11:16:21+0800 lvl=info msg=QiuFan chain=Rinkeby nonce=41 dataHash=0xe699903e6d904c1228db8f220af759ca068d9d280a2bc7d622608279c13b6302
+t=2021-10-11T11:40:42+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:40:45+0800 lvl=info msg="Connecting to ethereum chain..." chain=Rinkeby url=wss://rinkeby.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:40:52+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:40:55+0800 lvl=info msg="Started Rinkeby chain" system=core
+t=2021-10-11T11:40:55+0800 lvl=info msg="Polling Blocks..." chain=Rinkeby block=9444088
+t=2021-10-11T11:40:55+0800 lvl=info msg="Started sub chain" system=core
+t=2021-10-11T11:40:57+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2000000000000
+t=2021-10-11T11:40:57+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=1 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:40:57+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=1
+t=2021-10-11T11:40:57+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=1
+t=2021-10-11T11:40:58+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1997000000000000
+t=2021-10-11T11:40:58+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=2 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:40:58+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=2
+t=2021-10-11T11:40:58+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=2
+t=2021-10-11T11:41:00+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=189000000000000
+t=2021-10-11T11:41:00+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=3 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:00+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=3
+t=2021-10-11T11:41:00+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=3
+t=2021-10-11T11:41:01+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=293000000000000
+t=2021-10-11T11:41:01+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=4 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:01+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=4
+t=2021-10-11T11:41:01+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=4
+t=2021-10-11T11:41:02+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=462000000000000
+t=2021-10-11T11:41:02+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=5 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:02+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=5
+t=2021-10-11T11:41:02+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=5
+t=2021-10-11T11:41:03+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=507000000000000
+t=2021-10-11T11:41:03+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=6 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:03+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=6
+t=2021-10-11T11:41:04+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=6
+t=2021-10-11T11:41:05+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=175600000000000
+t=2021-10-11T11:41:05+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=7 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:05+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=7
+t=2021-10-11T11:41:05+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=7
+t=2021-10-11T11:41:06+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=28000000000000
+t=2021-10-11T11:41:06+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=8 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:06+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=8
+t=2021-10-11T11:41:06+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=8
+t=2021-10-11T11:41:07+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1057000000000000
+t=2021-10-11T11:41:07+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=9 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:07+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=9
+t=2021-10-11T11:41:07+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=9
+t=2021-10-11T11:41:08+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=997000000000000
+t=2021-10-11T11:41:08+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=10 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:08+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=10
+t=2021-10-11T11:41:09+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=10
+t=2021-10-11T11:41:10+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=47000000000000
+t=2021-10-11T11:41:10+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=11 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:41:10+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=11
+t=2021-10-11T11:43:09+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:43:17+0800 lvl=info msg="Connecting to ethereum chain..." chain=Rinkeby url=wss://rinkeby.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:43:24+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:43:26+0800 lvl=info msg="Started Rinkeby chain" system=core
+t=2021-10-11T11:43:26+0800 lvl=info msg="Polling Blocks..." chain=Rinkeby block=9444088
+t=2021-10-11T11:43:27+0800 lvl=info msg="Started sub chain" system=core
+t=2021-10-11T11:43:28+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2000000000000
+t=2021-10-11T11:43:28+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=1 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:43:28+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=1
+t=2021-10-11T11:43:28+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=1
+t=2021-10-11T11:43:30+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1997000000000000
+t=2021-10-11T11:43:30+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=2 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:43:30+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=2
+t=2021-10-11T11:43:30+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=2
+t=2021-10-11T11:43:31+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=189000000000000
+t=2021-10-11T11:43:31+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=3 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:43:31+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=3
+t=2021-10-11T11:43:31+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=3
+t=2021-10-11T11:43:33+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=293000000000000
+t=2021-10-11T11:43:33+0800 lvl=info msg="Attempting to resolve message" chain=Rinkeby type=FungibleTransfer src=1 dst=0 nonce=4 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:43:33+0800 lvl=info msg="Creating erc20 proposal" chain=Rinkeby src=1 nonce=4
+t=2021-10-11T11:43:33+0800 lvl=info msg="Failed Proposal" chain=Rinkeby nonce=4
+t=2021-10-11T11:46:50+0800 lvl=info msg="Starting ChainBridge..."
+Enter password for key ./keys/0xF797960c4926681774B3e083CB864305EFD438DF.key:
+> 
+t=2021-10-11T11:46:54+0800 lvl=info msg="Connecting to ethereum chain..." chain=ETH url=wss://mainnet.infura.io/ws/v3/c14f819f18b64e819de692da2c616733
+Enter password for key ./keys/5DM55uwcvWBmEzATomJXj8YbjSvGWsHgimjK2X4uR4o7tg2D.key:
+> 
+t=2021-10-11T11:47:02+0800 lvl=info msg="Connecting to substrate chain..." chain=sub url=wss://rpc-crust-mainnet.decoo.io
+t=2021-10-11T11:47:06+0800 lvl=info msg="Started ETH chain" system=core
+t=2021-10-11T11:47:06+0800 lvl=info msg="Polling Blocks..." chain=ETH block=13395012
+t=2021-10-11T11:47:06+0800 lvl=info msg="Started sub chain" system=core
+t=2021-10-11T11:47:07+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2000000000000
+t=2021-10-11T11:47:07+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=1 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:07+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=1
+t=2021-10-11T11:47:08+0800 lvl=info msg="Success Proposal" chain=ETH nonce=1
+t=2021-10-11T11:47:09+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1997000000000000
+t=2021-10-11T11:47:09+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=2 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:09+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=2
+t=2021-10-11T11:47:09+0800 lvl=info msg="Success Proposal" chain=ETH nonce=2
+t=2021-10-11T11:47:10+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=189000000000000
+t=2021-10-11T11:47:10+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=3 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:10+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=3
+t=2021-10-11T11:47:11+0800 lvl=info msg="Success Proposal" chain=ETH nonce=3
+t=2021-10-11T11:47:12+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=293000000000000
+t=2021-10-11T11:47:12+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=4 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:12+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=4
+t=2021-10-11T11:47:13+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=462000000000000
+t=2021-10-11T11:47:13+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=5 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:13+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=5
+t=2021-10-11T11:47:13+0800 lvl=info msg="Success Proposal" chain=ETH nonce=4
+t=2021-10-11T11:47:13+0800 lvl=info msg="Success Proposal" chain=ETH nonce=5
+t=2021-10-11T11:47:14+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=507000000000000
+t=2021-10-11T11:47:14+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=6 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:14+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=6
+t=2021-10-11T11:47:15+0800 lvl=info msg="Success Proposal" chain=ETH nonce=6
+t=2021-10-11T11:47:16+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=175600000000000
+t=2021-10-11T11:47:16+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=7 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:16+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=7
+t=2021-10-11T11:47:16+0800 lvl=info msg="Success Proposal" chain=ETH nonce=7
+t=2021-10-11T11:47:17+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=28000000000000
+t=2021-10-11T11:47:17+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=8 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:17+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=8
+t=2021-10-11T11:47:18+0800 lvl=info msg="Success Proposal" chain=ETH nonce=8
+t=2021-10-11T11:47:19+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1057000000000000
+t=2021-10-11T11:47:19+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=9 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:19+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=9
+t=2021-10-11T11:47:19+0800 lvl=info msg="Success Proposal" chain=ETH nonce=9
+t=2021-10-11T11:47:20+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=997000000000000
+t=2021-10-11T11:47:20+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=10 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:20+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=10
+t=2021-10-11T11:47:20+0800 lvl=info msg="Success Proposal" chain=ETH nonce=10
+t=2021-10-11T11:47:21+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=47000000000000
+t=2021-10-11T11:47:21+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=11 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:21+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=11
+t=2021-10-11T11:47:22+0800 lvl=info msg="Success Proposal" chain=ETH nonce=11
+t=2021-10-11T11:47:23+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=547000000000000
+t=2021-10-11T11:47:23+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=12 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:23+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=12
+t=2021-10-11T11:47:23+0800 lvl=info msg="Success Proposal" chain=ETH nonce=12
+t=2021-10-11T11:47:24+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2350000000000000
+t=2021-10-11T11:47:24+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=13 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:24+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=13
+t=2021-10-11T11:47:25+0800 lvl=info msg="Success Proposal" chain=ETH nonce=13
+t=2021-10-11T11:47:26+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=16883300000000
+t=2021-10-11T11:47:26+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=14 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:26+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=14
+t=2021-10-11T11:47:26+0800 lvl=info msg="Success Proposal" chain=ETH nonce=14
+t=2021-10-11T11:47:27+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1827000000000000
+t=2021-10-11T11:47:27+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=15 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:27+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=15
+t=2021-10-11T11:47:27+0800 lvl=info msg="Success Proposal" chain=ETH nonce=15
+t=2021-10-11T11:47:28+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2187000000000000
+t=2021-10-11T11:47:28+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=16 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:28+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=16
+t=2021-10-11T11:47:29+0800 lvl=info msg="Success Proposal" chain=ETH nonce=16
+t=2021-10-11T11:47:30+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=146000000000000
+t=2021-10-11T11:47:30+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=17 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:30+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=17
+t=2021-10-11T11:47:30+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=17
+t=2021-10-11T11:47:31+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=135000000000000
+t=2021-10-11T11:47:31+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=18 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:31+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=18
+t=2021-10-11T11:47:31+0800 lvl=info msg="Success Proposal" chain=ETH nonce=18
+t=2021-10-11T11:47:33+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=97000000000000
+t=2021-10-11T11:47:33+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=19 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:33+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=19
+t=2021-10-11T11:47:33+0800 lvl=info msg="Success Proposal" chain=ETH nonce=19
+t=2021-10-11T11:47:34+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2497000000000000
+t=2021-10-11T11:47:34+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=20 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:34+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=20
+t=2021-10-11T11:47:34+0800 lvl=info msg="Success Proposal" chain=ETH nonce=20
+t=2021-10-11T11:47:35+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=4573000000000000
+t=2021-10-11T11:47:35+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=21 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:35+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=21
+t=2021-10-11T11:47:36+0800 lvl=info msg="Success Proposal" chain=ETH nonce=21
+t=2021-10-11T11:47:37+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=100000000000
+t=2021-10-11T11:47:37+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=22 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:37+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=22
+t=2021-10-11T11:47:37+0800 lvl=info msg="Success Proposal" chain=ETH nonce=22
+t=2021-10-11T11:47:38+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1091000000000000
+t=2021-10-11T11:47:38+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=23 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:38+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=23
+t=2021-10-11T11:47:38+0800 lvl=info msg="Success Proposal" chain=ETH nonce=23
+t=2021-10-11T11:47:40+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1237000000000000
+t=2021-10-11T11:47:40+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=24 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:40+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=24
+t=2021-10-11T11:47:40+0800 lvl=info msg="Success Proposal" chain=ETH nonce=24
+t=2021-10-11T11:47:41+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=3000000000000
+t=2021-10-11T11:47:41+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=25 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:41+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=25
+t=2021-10-11T11:47:41+0800 lvl=info msg="Success Proposal" chain=ETH nonce=25
+t=2021-10-11T11:47:42+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=27000000000000
+t=2021-10-11T11:47:42+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=26 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:42+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=26
+t=2021-10-11T11:47:42+0800 lvl=info msg="Success Proposal" chain=ETH nonce=26
+t=2021-10-11T11:47:44+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=4689000000000000
+t=2021-10-11T11:47:44+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=27 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:44+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=27
+t=2021-10-11T11:47:44+0800 lvl=info msg="Success Proposal" chain=ETH nonce=27
+t=2021-10-11T11:47:45+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=89000000000000
+t=2021-10-11T11:47:45+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=28 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:45+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=28
+t=2021-10-11T11:47:45+0800 lvl=info msg="Success Proposal" chain=ETH nonce=28
+t=2021-10-11T11:47:46+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=102998600000000
+t=2021-10-11T11:47:46+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=29 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:46+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=29
+t=2021-10-11T11:47:47+0800 lvl=info msg="Success Proposal" chain=ETH nonce=29
+t=2021-10-11T11:47:48+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=995000000000000
+t=2021-10-11T11:47:48+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=30 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:48+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=30
+t=2021-10-11T11:47:48+0800 lvl=info msg="Success Proposal" chain=ETH nonce=30
+t=2021-10-11T11:47:49+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=5443900000000
+t=2021-10-11T11:47:49+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=31 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:49+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=31
+t=2021-10-11T11:47:49+0800 lvl=info msg="Success Proposal" chain=ETH nonce=31
+t=2021-10-11T11:47:50+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=7000000000000
+t=2021-10-11T11:47:50+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=32 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:50+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=32
+t=2021-10-11T11:47:51+0800 lvl=info msg="Success Proposal" chain=ETH nonce=32
+t=2021-10-11T11:47:52+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2496990000000000
+t=2021-10-11T11:47:52+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=33 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:52+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=33
+t=2021-10-11T11:47:52+0800 lvl=info msg="Success Proposal" chain=ETH nonce=33
+t=2021-10-11T11:47:53+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=6257000000000000
+t=2021-10-11T11:47:53+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=34 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:53+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=34
+t=2021-10-11T11:47:54+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=34
+t=2021-10-11T11:47:55+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=827000000000000
+t=2021-10-11T11:47:55+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=35 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:55+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=35
+t=2021-10-11T11:47:55+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=35
+t=2021-10-11T11:47:56+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=3300000000000000
+t=2021-10-11T11:47:56+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=36 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:56+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=36
+t=2021-10-11T11:47:56+0800 lvl=info msg="Success Proposal" chain=ETH nonce=36
+t=2021-10-11T11:47:57+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=140000000000000
+t=2021-10-11T11:47:57+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=37 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:57+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=37
+t=2021-10-11T11:47:58+0800 lvl=info msg="Success Proposal" chain=ETH nonce=37
+t=2021-10-11T11:47:59+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=5997000000000000
+t=2021-10-11T11:47:59+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=38 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:47:59+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=38
+t=2021-10-11T11:47:59+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=38
+t=2021-10-11T11:48:00+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=830000000000000
+t=2021-10-11T11:48:00+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=39 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:00+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=39
+t=2021-10-11T11:48:00+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=39
+t=2021-10-11T11:48:02+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=497000000000000
+t=2021-10-11T11:48:02+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=40 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:02+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=40
+t=2021-10-11T11:48:02+0800 lvl=info msg="Failed Proposal" chain=ETH nonce=40
+t=2021-10-11T11:48:03+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=21770000000000
+t=2021-10-11T11:48:03+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=41 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:03+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=41
+t=2021-10-11T11:48:03+0800 lvl=info msg="Success Proposal" chain=ETH nonce=41
+t=2021-10-11T11:48:04+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2623000000000000
+t=2021-10-11T11:48:04+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=42 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:04+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=42
+t=2021-10-11T11:48:05+0800 lvl=info msg="Success Proposal" chain=ETH nonce=42
+t=2021-10-11T11:48:06+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=54000000000000
+t=2021-10-11T11:48:06+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=43 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:06+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=43
+t=2021-10-11T11:48:06+0800 lvl=info msg="Success Proposal" chain=ETH nonce=43
+t=2021-10-11T11:48:07+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=2347000000000000
+t=2021-10-11T11:48:07+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=44 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:07+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=44
+t=2021-10-11T11:48:07+0800 lvl=info msg="Success Proposal" chain=ETH nonce=44
+t=2021-10-11T11:48:09+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=1963000000000000
+t=2021-10-11T11:48:09+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=45 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:09+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=45
+t=2021-10-11T11:48:09+0800 lvl=info msg="Success Proposal" chain=ETH nonce=45
+t=2021-10-11T11:48:10+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=233000000000000
+t=2021-10-11T11:48:10+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=46 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:10+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=46
+t=2021-10-11T11:48:10+0800 lvl=info msg="Success Proposal" chain=ETH nonce=46
+t=2021-10-11T11:48:11+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=88000000000000
+t=2021-10-11T11:48:11+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=47 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:11+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=47
+t=2021-10-11T11:48:12+0800 lvl=info msg="Success Proposal" chain=ETH nonce=47
+t=2021-10-11T11:48:13+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=535000000000000
+t=2021-10-11T11:48:13+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=48 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:13+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=48
+t=2021-10-11T11:48:13+0800 lvl=info msg="Success Proposal" chain=ETH nonce=48
+t=2021-10-11T11:48:14+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=57499800000000
+t=2021-10-11T11:48:14+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=49 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:14+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=49
+t=2021-10-11T11:48:14+0800 lvl=info msg="Success Proposal" chain=ETH nonce=49
+t=2021-10-11T11:48:15+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=10900000000000
+t=2021-10-11T11:48:15+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=50 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:15+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=50
+t=2021-10-11T11:48:16+0800 lvl=info msg="Success Proposal" chain=ETH nonce=50
+t=2021-10-11T11:48:17+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=15526000000000
+t=2021-10-11T11:48:17+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=51 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:17+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=51
+t=2021-10-11T11:48:17+0800 lvl=info msg="Success Proposal" chain=ETH nonce=51
+t=2021-10-11T11:48:18+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=941631300000000
+t=2021-10-11T11:48:18+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=52 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:18+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=52
+t=2021-10-11T11:48:18+0800 lvl=info msg="Success Proposal" chain=ETH nonce=52
+t=2021-10-11T11:48:20+0800 lvl=info msg="Got fungible transfer event!" chain=sub destination=0 resourceId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801 amount=289757800000000
+t=2021-10-11T11:48:20+0800 lvl=info msg="Attempting to resolve message" chain=ETH type=FungibleTransfer src=1 dst=0 nonce=53 rId=000000000000000000000000000000608d1bc9a2d146ebc94667c336721b2801
+t=2021-10-11T11:48:20+0800 lvl=info msg="Creating erc20 proposal" chain=ETH src=1 nonce=53
+t=2021-10-11T11:48:20+0800 lvl=info msg="Success Proposal" chain=ETH nonce=53
