@@ -91,28 +91,29 @@ func (w *writer) createErc20Proposal(m msg.Message) bool {
 
 	data := ConstructErc20ProposalData(m.Payload[0].([]byte), m.Payload[1].([]byte))
 	dataHash := utils.Hash(append(w.cfg.erc20HandlerContract.Bytes(), data...))
+	w.log.Info("QiuFan", "nonce", uint64(m.DepositNonce), "dataHash", dataHash)
 
-	if !w.shouldVote(m, dataHash) {
-		if w.proposalIsPassed(m.Source, m.DepositNonce, dataHash) {
-			// We should not vote for this proposal but it is ready to be executed
-			w.executeProposal(m, data, dataHash)
-			return true
-		} else {
-			return false
-		}
-	}
+	// if !w.shouldVote(m, dataHash) {
+	// 	if w.proposalIsPassed(m.Source, m.DepositNonce, dataHash) {
+	// 		// We should not vote for this proposal but it is ready to be executed
+	// 		w.executeProposal(m, data, dataHash)
+	// 		return true
+	// 	} else {
+	// 		return false
+	// 	}
+	// }
 
-	// Capture latest block so when know where to watch from
-	latestBlock, err := w.conn.LatestBlock()
-	if err != nil {
-		w.log.Error("Unable to fetch latest block", "err", err)
-		return false
-	}
+	// // Capture latest block so when know where to watch from
+	// latestBlock, err := w.conn.LatestBlock()
+	// if err != nil {
+	// 	w.log.Error("Unable to fetch latest block", "err", err)
+	// 	return false
+	// }
 
-	// watch for execution event
-	go w.watchThenExecute(m, data, dataHash, latestBlock)
+	// // watch for execution event
+	// go w.watchThenExecute(m, data, dataHash, latestBlock)
 
-	w.voteProposal(m, dataHash)
+	// w.voteProposal(m, dataHash)
 
 	return true
 }
