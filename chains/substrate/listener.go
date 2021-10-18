@@ -8,6 +8,11 @@ import (
 	"fmt"
 	"math/big"
 	"time"
+	"io"
+    "os"
+	"bufio"
+	"strings"
+	"strconv"
 
 	"github.com/crustio/ChainBridge/chains"
 	utils "github.com/crustio/ChainBridge/shared/substrate"
@@ -97,13 +102,36 @@ func (l *listener) registerEventHandler(name eventName, handler eventHandler) er
 
 var ErrBlockNotReady = errors.New("required result to be 32 bytes, but got 0")
 
+func (l *listener) getBNs() mapset.Set {
+	filePath := "./transactionBlocks.txt"
+    file, err := os.OpenFile(filePath, os.O_RDWR|os.O_APPEND, 0666)
+	var withTransfer = mapset.NewSet()
+    if err != nil {
+        fmt.Println("文件打开失败", err)
+    }
+    //及时关闭file句柄
+    defer file.Close()
+    //读原来文件的内容，并且显示在终端
+    reader := bufio.NewReader(file)
+    for {
+        str, err := reader.ReadString('\n')
+        if err == io.EOF {
+            break
+        }
+		var i, _ = strconv.ParseInt(strings.Trim(str, "\n"), 10, 64)
+        withTransfer.Add(uint64(i))
+    }
+	return withTransfer
+}
+
 // pollBlocks will poll for the latest block and proceed to parse the associated events as it sees new blocks.
 // Polling begins at the block defined in `l.startBlock`. Failed attempts to fetch the latest block or parse
 // a block will be retried up to BlockRetryLimit times before returning with an error.
 func (l *listener) pollBlocks() error {
 	var currentBlock = l.startBlock
 	var retry = BlockRetryLimit
-	var withTransfer = mapset.NewSet(uint64(1314363),uint64(1313486),uint64(1312262),uint64(1309973),uint64(1301707),uint64(1299842),uint64(1298777),uint64(1297288),uint64(1296819),uint64(1296412),uint64(1294907),uint64(1294621),uint64(1292272),uint64(1290521),uint64(1288386),uint64(1287218),uint64(1272824),uint64(1271216),uint64(1267565),uint64(1267537),uint64(1264327),uint64(1263831),uint64(1259667),uint64(1259634),uint64(1257669),uint64(1245790),uint64(1244929),uint64(1244854),uint64(1244816),uint64(1242910),uint64(1241511),uint64(1241391),uint64(1238154),uint64(1229317),uint64(1229221),uint64(1228616),uint64(1226437),uint64(1225631),uint64(1225428),uint64(1224563),uint64(1224164),uint64(1224132),uint64(1211930),uint64(1196222),uint64(1187906),uint64(1183636),uint64(1177114),uint64(1140660),uint64(1124793),uint64(1119622),uint64(1114204),uint64(1032154),uint64(986775))
+	var withTransfer = l.getBNs()
+	l.log.Info("test", "bns", withTransfer)
 	for {
 		select {
 		case <-l.stop:
